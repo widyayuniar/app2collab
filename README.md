@@ -135,5 +135,30 @@ D. SplashActivity.kt
     	•	layout_centerInParent="true" → Memposisikan gambar di tengah layout.
 4. </RelativeLayout> : Menutup tag RelativeLayout.
 
+D. Terminal
+1. git init : Menginisialisasi repositori Git lokal di folder proyek. Setelah perintah ini, folder tersebut menjadi repositori Git.
+2. git add . : Menambahkan semua file dan perubahan ke area staging agar siap dikomit.
+3. git commit -m "Inisialisasi proyek Android" : Menyimpan perubahan yang sudah di-add dengan pesan commit "Inisialisasi proyek Android".
+4. git branch -M main : Mengganti nama branch utama (default) menjadi main.
+5. git remote add origin https://github.com/NamaUser/NamaRepo.git : Menghubungkan repositori lokal dengan repositori GitHub (remote) yang URL-nya kamu masukkan.
+6. git push -u origin main : Mengirim branch main ke GitHub (remote) dan menetapkan origin/main sebagai default tracking branch.
+7. git checkout -b fitur-ui : Membuat dan langsung berpindah ke branch baru bernama fitur-ui.
+8. git commit -m "add ui" : Menyimpan perubahan (yang sebelumnya sudah di-add) dengan pesan commit "add ui".
+9. git push -u origin fitur-ui : Mengirim branch fitur-ui ke GitHub dan menetapkannya sebagai tracking branch.
+10. git checkout -b fitur-logic : Membuat dan berpindah ke branch baru bernama fitur-logic.
+11. git commit -m "add logic" : Menyimpan perubahan yang sudah ditambahkan ke staging area dengan pesan "add logic".
+12. git push -u origin fitur-logic : Mengirim branch fitur-logic ke GitHub dan menetapkannya sebagai tracking branch.
+13. git commit -m "add splash" : Melakukan commit (catatan perubahan) dengan pesan "add splash", tetapi tidak ada git add sebelumnya, jadi mungkin tidak ada perubahan yang ikut dikomit.
+14. git checkout -b fitur-splash : Membuat dan berpindah ke branch fitur-splash.
+15. git push -u origin fitur-splash : Mengirim branch fitur-splash ke GitHub dan menetapkannya sebagai tracking branch.
+16. git pull origin fitur-ui : Mengambil dan menggabungkan isi dari branch fitur-ui di GitHub ke branch lokal saat ini.
+17. git pull origin fitur-logic : Mengambil dan menggabungkan isi dari branch fitur-logic ke branch lokal.
+18. git pull origin fitur-splash : Mengambil dan menggabungkan isi dari branch fitur-splash ke branch lokal.
+19. git push -u origin main : Mendorong perubahan dari branch main lokal ke GitHub (bisa jadi setelah digabung dari cabang fitur-fitur sebelumnya).
+20. git pull origin main : Mengambil dan menggabungkan perubahan terbaru dari branch main di GitHub ke branch lokal saat ini.
+
 ## 📸 Screenshot
+![hasil 1](https://github.com/user-attachments/assets/b8494029-f243-4976-88d3-78b9fe611c8a)
+![hasil 2](https://github.com/user-attachments/assets/a57d09fb-fdae-4b5a-8f20-6625b6bc61a8)
+![hasil 3](https://github.com/user-attachments/assets/f63cae2b-3a2c-421c-84bc-271504ad5919)
 
