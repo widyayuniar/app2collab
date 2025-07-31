@@ -11,6 +11,4 @@
             android:src="@drawable/fotosmk"
             android:layout_centerInParent="true"/>
 
-
-
 </RelativeLayout>
